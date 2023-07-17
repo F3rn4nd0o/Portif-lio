@@ -4,6 +4,7 @@ import { globalStyles } from "../styles/global";
 import { Container } from "../styles/pages/app";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import '../libs/i18n';
 
 globalStyles()
 

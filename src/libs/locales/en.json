@@ -1,0 +1,29 @@
+{
+  "home": {
+    "greeting": "Hello, I am",
+    "name": "Fernando Melo",
+    "developer": "Full Stack Developer",
+    "github": "Visit GitHub",
+    "imageText": "There will be an image here",
+    "about": "About Me",
+    "aboutDescription": "I am a Full Stack developer. Currently, my favorite languages are JavaScript using Node.js with TypeScript for API development, Next.js with TypeScript for web development, and React Native with TypeScript for mobile app development.",
+    "linkedin": "Linkedin",
+    "services": "Services",
+    "servicesDescription": "If you need someone to develop an application, personal or commercial website, or even a simple landing page, you're in the right place! I deliver projects through GitHub in a private or public repository to keep the code versioned, making the history control process easier.",
+    "development": "Development",
+    "developmentDescription": "End-to-end project development, creating REST APIs and building dynamic or static websites.",
+    "mobileFriendly": "Mobile-friendly",
+    "mobileFriendlyDescription": "Responsive design, making your site accessible regardless of the device. Creating screens based on the Mobile First concept.",
+    "analytics": "Analytics",
+    "analyticsDescription": "Get insights about who is browsing your site, so you can make smarter business decisions.",
+    "cleanCode": "Clean code",
+    "cleanCodeDescription": "Development following the main design patterns, aiming to make the code more intuitive, elegant, and easy to maintain.",
+    "skills": "Skills",
+    "skillsImageText": "There will be images of skills",
+    "skillsContainers": "There will be skill containers",
+    "contact": "Contact",
+    "contactDescription": "Contact us for questions, suggestions, quotes, or support.",
+    "socialMedia": "There will be social media icons",
+    "sendButton": "Send"
+  }
+}

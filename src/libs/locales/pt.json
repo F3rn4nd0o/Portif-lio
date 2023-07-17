@@ -1,0 +1,29 @@
+{
+  "home": {
+    "greeting": "Olá, eu sou",
+    "name": "Fernando Melo",
+    "developer": "Desenvolvedor Full Stack",
+    "github": "Visitar GitHub",
+    "imageText": "Vai ter uma imagem aqui",
+    "about": "Sobre Mim",
+    "aboutDescription": "Sou um desenvolvedor Full Stack. Atualmente, minhas linguagens favoritas são JavaScript utilizando o Node.js com TypeScript para criação de API&apos;s, Next.js com TypeScript para desenvolvimento web e ReactNative com TypeScript para desenvolvimento de apps mobile.",
+    "linkedin": "Linkedin",
+    "services": "Serviços",
+    "servicesDescription": "Se você precisa de alguém para desenvolver um aplicativo, site pessoal, comercial ou até mesmo uma simples landing page você está no lugar certo! Realizo as entregas dos projetos através do Github em um repositório privado ou público, com o intuito de manter o código sempre versionado, facilitando o processo de controle de histórico.",
+    "development": "Desenvolvimento",
+    "developmentDescription": "Desenvolvimento de projetos end-to-end, criando API&apos;s no padrão REST e criando websites dinâmicos ou estáticos.",
+    "mobileFriendly": "Compatível com dispositivos móveis",
+    "mobileFriendlyDescription": "Design responsivo, tornando seu site acessível, independentemente do dispositivo. Criando telas com base no conceito Mobile First.",
+    "analytics": "Analytics",
+    "analyticsDescription": "Obtenha informações sobre quem está navegando em seu site, para que você possa tomar decisões de negócios mais inteligentes.",
+    "cleanCode": "Código limpo",
+    "cleanCodeDescription": "Desenvolvimento seguindo os principais design patterns, com objetivo de tornar o código mais intuitivo, elegante e com fácil manutenção.",
+    "skills": "Skills",
+    "skillsImageText": "Vai ter as imagens das habilidades",
+    "skillsContainers": "Vai ter os containers das habilidades",
+    "contact": "Contato",
+    "contactDescription": "Entre em contato para dúvidas, sugestões, orçamentos ou suporte.",
+    "socialMedia": "Vai ter os ícones das redes sociais",
+    "sendButton": "Enviar"
+  }
+}
