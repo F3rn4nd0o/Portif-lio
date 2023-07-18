@@ -14,16 +14,18 @@ export const Container2 = styled('div', {
 export const Container3 = styled('div', {
   display: 'flex',
   flexDirection: 'rows',
-  gap: '1.5rem'
+  gap: '1.5rem',
+  marginRight: '5rem'
 })
 
 export const HeaderText = styled('text', {
   fontSize: '1.5rem',
   fontWeight: 'bold',
+  marginLeft: '2.5rem'
 })
 
 export const A = styled('a', {
-  transition: 'scroll-behavior 800ms ease-in-out;'
+  transition: 'scroll-behavior 800ms ease-in-out;',
 })
 
 export const Button = styled('button', {

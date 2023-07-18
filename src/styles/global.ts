@@ -7,13 +7,17 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: '$black',
+    backgroundColor: '$primary',
     color: '$white',
     '-webkit-font-smoothing': 'antialiased',
   },
 
   'body, input, textarea, button': {
-    fontFamily: 'Nunito Sans',
-    fontWeight: 400,
+    fontFamily: 'Nunito Sans' || 'Roboto',
+  },
+
+  a: {
+    textDecoration: 'none',
+    color: '$white',
   }
 })

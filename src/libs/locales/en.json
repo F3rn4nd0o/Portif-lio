@@ -1,5 +1,7 @@
 {
   "home": {
+    "formName": "Full Name",
+    "message": "Message",
     "greeting": "Hello, I am",
     "name": "Fernando Melo",
     "developer": "Full Stack Developer",
@@ -7,9 +9,10 @@
     "imageText": "There will be an image here",
     "about": "About Me",
     "aboutDescription": "I am a Full Stack developer. Currently, my favorite languages are JavaScript using Node.js with TypeScript for API development, Next.js with TypeScript for web development, and React Native with TypeScript for mobile app development.",
-    "linkedin": "Linkedin",
+    "linkedin": "Visit Linkedin",
     "services": "Services",
-    "servicesDescription": "If you need someone to develop an application, personal or commercial website, or even a simple landing page, you're in the right place! I deliver projects through GitHub in a private or public repository to keep the code versioned, making the history control process easier.",
+    "servicesDescription1": "If you need someone to develop an app, personal or commercial website, even a simple landing page you are in the right place!",
+    "servicesDescription2": "I deliver projects through Github in a private or public repository, in order to keep the code always versioned, facilitating the history control process.",
     "development": "Development",
     "developmentDescription": "End-to-end project development, creating REST APIs and building dynamic or static websites.",
     "mobileFriendly": "Mobile-friendly",
@@ -24,6 +27,14 @@
     "contact": "Contact",
     "contactDescription": "Contact us for questions, suggestions, quotes, or support.",
     "socialMedia": "There will be social media icons",
-    "sendButton": "Send"
+    "sendButton": "Send Message",
+    "Node": "Node.js is a powerful JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to run JavaScript code on the server-side, enabling you to build scalable and high-performance web applications. Node.js has a rich ecosystem of libraries and frameworks that make it a popular choice for developing server-side applications.",
+    "TypeScript": "TypeScript is a programming language developed and maintained by Microsoft. Introducing additional features such as binding strict types to JavaScript. TypeScript overcomes one of the biggest flaws of JavaScript, which is finding bugs in the code during the development phase, checking for any problems at compile time, preventing the delivery of the defective product to the end customer.",
+    "JavaScript": "JavaScript is a lightweight and commonly used language on web pages, whose implementations allow client-side script to interact with the user and create dynamic pages. It is an interpreted programming language with object-oriented features.",
+    "Docker": "Docker consists of an Open Source platform, whose objective is to manage applications in containers as if they were VMs. Containers are isolated from each other and group their own software, libraries and configuration files.",
+    "GitHub": "GitHub is a version-controlled source code and file hosting platform using Git, allowing programmers or any user of the platform to contribute to private and/or Open Source projects anywhere in the world.",
+    "Next": "Next.js is a popular React framework for building web applications. It provides server-side rendering, automatic code splitting, and simple routing capabilities, among other features. Next.js simplifies the development process and improves performance by optimizing the loading and rendering of web pages.",
+    "ReactNative": "React Native is a framework for building native mobile applications using JavaScript and React. It allows you to write code once and deploy it on multiple platforms, such as iOS and Android. React Native provides a set of pre-built components that closely resemble native UI components, allowing you to create high-quality, performant mobile apps using familiar React syntax.",
+    "React": "React is a JavaScript library for building user interfaces. It allows you to create reusable UI components that update efficiently and provide a seamless user experience. React follows a declarative approach, where you describe how your UI should look based on its current state, and React takes care of updating the UI efficiently when the state changes."
   }
 }
