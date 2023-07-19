@@ -79,13 +79,13 @@ export function Header({ toggleTheme }) {
     };
   }, []);
 
+  const name = 'Fernando Vasconcelos Melo Costa'
+  const name2 = 'Fernando V. M. Costa'
+
   return (
     <ContainerHeader>
       <Container1>
-        <Container2>
-          <HeaderText>{t('home.name')}</HeaderText>
-        </Container2>
-
+        <HeaderText>{isSmallScreen ? name2 : name}</HeaderText>
         <Container3>
           {!isSmallScreen && (
             <>

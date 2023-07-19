@@ -3,6 +3,8 @@ import { styled } from '..'
 export const Container1 = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+  marginLeft: '2rem',
+  marginRight: '2rem'
 });
 
 export const Container2 = styled('div', {
@@ -18,6 +20,11 @@ export const Container2 = styled('div', {
 
     marginRight: '20rem',
     marginTop: '7rem',
+  },
+
+  '@media (max-width: 1010px)': {
+    marginTop: '7rem',
+    marginLeft: '6rem',
   }
 });
 
@@ -27,10 +34,11 @@ export const Container3 = styled('div', {
   justifyContent: 'space-between',
   marginTop: '6rem',
   position: 'relative',
+  marginLeft: '3rem',
 
-  
-  '@media (max-width: 1010px)': {
-    marginBottom: '3rem'
+  '@media (max-width: 870px)': {
+    marginLeft: '0',
+    marginBottom: '3rem',
   }
 });
 
@@ -61,6 +69,16 @@ export const Container5 = styled('div', {
 export const Container6 = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+  marginRight: '7rem',
+
+  '@media (max-width: 1410px)': {
+    marginRight: '0'
+  }
+})
+
+export const ContainerService = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
 })
 
 export const Container7 = styled('div', {
@@ -80,9 +98,11 @@ export const Container9 = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   marginRight: '3rem',
+  marginLeft: '10rem',
   
   '@media (max-width: 1410px)': {
-    marginTop: '6rem'
+    marginTop: '6rem',
+    marginLeft: '0',
   }
 })
 
@@ -127,6 +147,19 @@ export const Container12 = styled('div', {
   }
 })
 
+export const Container13 = styled('div', {
+  marginTop: '3rem',
+  marginLeft: '8rem',
+  marginRight: '4rem',
+
+  '@media (max-width: 870px)': {
+    marginTop: '3rem',
+    marginLeft: '0rem',
+    marginRight: '0rem',
+  }
+})
+
+
 
 export const ContainerTitle = styled('div', {
   position: 'relative',
@@ -150,11 +183,16 @@ export const Ul = styled('ul', {
   display: 'grid',
   gridTemplateColumns: 'repeat(4, 1fr)',
   gridGap: '20px',
+  marginRight: '8.5rem',
 
-  marginRight: '20rem',
+  '@media (max-width: 850px)': {
+    gridTemplateColumns: 'repeat(3, 1fr)',
+     marginRight: '0rem',
+  },
 
-  '@media (max-width: 1410px)': {
-    marginRight: '2rem'
+  '@media (max-width: 400px)': {
+    gridTemplateColumns: 'repeat(1, 1fr)',
+     marginRight: '0rem',
   }
 })
 
@@ -227,12 +265,10 @@ export const Skill = styled('div', {
 export const ColInput = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  width: '45rem',
-  position: 'relative',
-  marginLeft: '4rem',
+  marginLeft: '20rem',
 
   '@media (max-width: 1010px)': {
-    marginLeft: '24rem',
+    marginLeft: '0'
   }
 });
 
@@ -243,27 +279,15 @@ export const Text = styled('text', {
 
 export const TextInput = styled('text', {
   color: '$tertiary',
-  position: 'absolute',
-  top: '-10px',
-  backgroundColor: '$secondary',
-  paddingLeft: '3px',
-  paddingRight: '3px',
-  marginLeft: '20px',
 });
 
 export const TextInput2 = styled('text', {
   color: '$tertiary',
-  position: 'absolute',
-  top: '5rem',
-  backgroundColor: '$secondary',
-  paddingLeft: '3px',
-  paddingRight: '3px',
-  marginLeft: '20px',
 });
 
 export const TextArea = styled('textarea', {
   color: '#fff',
-  width: '80%',
+  width: '30rem',
   height: '5rem',
   fontSize: '20px',
   border: '2px solid $tertiary',
@@ -280,13 +304,13 @@ export const TextArea = styled('textarea', {
   },
 
   '@media (max-width: 1010px)': {
-    width: '40%',
+    width: 'auto',
   }
 });
 
 export const TextArea2 = styled('textarea', {
   color: '#fff',
-  width: '80%',
+  width: '30rem',
   height: '2rem',
   fontSize: '20px',
   border: '2px solid $tertiary',
@@ -303,6 +327,6 @@ export const TextArea2 = styled('textarea', {
   },
 
   '@media (max-width: 1010px)': {
-    width: '40%',
+    width: 'auto',
   }
 });

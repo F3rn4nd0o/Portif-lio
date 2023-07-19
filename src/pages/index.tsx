@@ -18,6 +18,7 @@ import {
   Container10,
   Container11,
   Container12,
+  Container13,
   ContainerTitle,
   TitleLine,
   Text,
@@ -30,6 +31,7 @@ import {
   Li,
   Ul,
   Skill,
+  ContainerService,
 } from '../styles/pages/home';
 
 import { useTranslation } from 'react-i18next';
@@ -99,7 +101,6 @@ export default function Home({ theme }) {
     { id: 7, name: 'GitHub', description: t('home.GitHub'), score: 8, image: Github },
     { id: 8, name: 'Docker', description: t('home.Docker'), score: 7, image: Docker },
   ];
-  
 
   return (
     <Container1>
@@ -124,20 +125,20 @@ export default function Home({ theme }) {
 
       <Container12 id="about" style={{ alignItems: 'center', justifyContent: 'center'}}>
         <Container6>
-            <Image 
-              src={Fernando} 
-              alt="Fernando" 
-              style={{ 
-                width: '15rem', 
-                height: '15rem', 
-                borderRadius:'10rem', 
-                marginRight: '10rem',
-                marginLeft: '5rem',
-                border: '5px solid #00c16c',
-                padding: '10px'
-              }}
-            />
-          <Container3 style={{ justifyContent: 'center', marginTop: '20px', gap: '1rem', marginRight: '6rem', }}>
+            <Container13>
+              <Image 
+                src={Fernando} 
+                alt="Fernando" 
+                style={{ 
+                  width: '15rem', 
+                  height: '15rem', 
+                  borderRadius:'10rem', 
+                  border: '5px solid #00c16c',
+                  padding: '10px',
+                }}
+              />
+            </Container13>
+          <Container3 style={{ justifyContent: 'center', marginTop: '20px', gap: '1rem' }}>
             <A href="https://www.instagram.com/fernando._.mello/">
               <Image src={Instagram} style={{ width: '2rem', height: '2rem'}} alt='Instagram' />
             </A>
@@ -170,7 +171,7 @@ export default function Home({ theme }) {
       </Container12>
 
       <Container4 id="services" style={{ alignItems: 'center' }}>
-        <Container6 style={{ marginRight: '7rem'}}>
+        <Container6>
           <ContainerTitle>
             <Text>{t('home.services')}</Text>
             <TitleLine />
@@ -179,7 +180,7 @@ export default function Home({ theme }) {
           <P>{t('home.servicesDescription2')}</P>
         </Container6>
 
-        <Container6>
+        <ContainerService>
           <Container11>
             <Container8>
               <Image src={Code} alt='Code' style={{ marginBottom: '1rem'}} />
@@ -207,7 +208,7 @@ export default function Home({ theme }) {
               <P>{t('home.cleanCodeDescription')}</P>
             </Container8>
           </Container11>
-        </Container6>
+        </ContainerService>
       </Container4>
 
       <Container4 id="skills" style={{ alignItems: 'center'}}>
@@ -224,7 +225,7 @@ export default function Home({ theme }) {
         </Ul>
 
         {activeSkill ? (
-          <Container9 style={{ marginLeft: '2rem'}}>
+          <Container9 id="skills2" style={{ marginLeft: '2rem'}}>
             <ContainerTitle>
               <Text>{activeSkill.name}</Text>
               <TitleLine />
