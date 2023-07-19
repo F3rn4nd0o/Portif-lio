@@ -3,8 +3,6 @@ import { styled } from '..'
 export const Container1 = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  marginLeft: '5rem',
-  marginRight: '5rem',
 });
 
 export const Container2 = styled('div', {
