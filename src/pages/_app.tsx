@@ -14,18 +14,17 @@ import { globalStyles } from "../styles/global";
 globalStyles()
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [ theme, settheme ] =  useState(dark)
+  const [theme, setTheme] = useState(dark);
 
   const toggleTheme = () => {
-    settheme(theme === light ? dark : light)
-  }
+    setTheme(theme === light ? dark : light);
+  };
 
   return (
     <Container className={theme}>
-      <Header toggleTheme={toggleTheme}/>
-      <Component {...pageProps}/>
-      <Footer />
+      <Header toggleTheme={toggleTheme} />
+      <Component {...pageProps} theme={theme} />
+      <Footer theme={theme}/>
     </Container>
-  )
+  );
 }
-

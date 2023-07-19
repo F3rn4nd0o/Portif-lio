@@ -15,12 +15,13 @@ export const ContainerHeader = styled('header', {
   top: '0',
   left: '0',
   right: '0',
-  backgroundColor: '$primary'
+  backgroundColor: '$primary',
+  zIndex: '9999'
 })
 
 export const ContainerFooter = styled('footer', {
   padding: '2rem 0',
+  backgroundColor: '$primary',
   width: '100%',
-  maxWidth: 1180,
-  margin: '0 auto'
+  marginTop: '5rem'
 })

@@ -5,7 +5,7 @@ export const light = createTheme({
     primary: '#fff',
     secondary: '',
     tertiary: '#00c16c',
-    fourth: '#17201f',
+    fourth: '#002e34',
 
     text: '#000'
   },

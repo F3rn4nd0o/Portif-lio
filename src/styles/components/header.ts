@@ -18,6 +18,48 @@ export const Container3 = styled('div', {
   marginRight: '5rem'
 })
 
+export const LinksContainer = styled('div', {
+  position: 'absolute',
+  display: 'flex',
+  flexDirection: 'column',
+  background: 'linear-gradient(to right, $primary, $secondary)',
+  height: '100vh',
+  width: '100%',
+  
+  justifyContent: 'center',
+  alignItems: 'center',
+
+  WebkitBoxPack: 'center',
+  WebkitBoxAlign: 'center',
+  
+  inset: '0px',
+  zIndex: '20',
+});
+
+export const A2 = styled('a', {
+  transition: 'scroll-behavior 800ms ease-in-out',
+  fontSize: '20px',
+
+  '&:hover': {
+    borderBottom: '3px solid $tertiary',
+  },
+  
+  marginBottom: '1rem',
+});
+
+export const Button = styled('button', {
+  backgroundColor: 'transparent',
+  cursor: 'pointer',
+  outline: 'none',
+  border: 'none',
+});
+
+export const CloseButton = styled(Button, {
+  position: 'absolute',
+  top: '1rem',
+  right: '100px',
+});
+
 export const HeaderText = styled('text', {
   fontSize: '1.5rem',
   fontWeight: 'bold',
@@ -25,11 +67,9 @@ export const HeaderText = styled('text', {
 })
 
 export const A = styled('a', {
-  transition: 'scroll-behavior 800ms ease-in-out;',
-})
+  transition: 'scroll-behavior 800ms ease-in-out',
 
-export const Button = styled('button', {
-  backgroundColor: 'transparent',
-  outline: 'none',
-  border: 'none'
+  '&:hover': {
+    borderBottom: '3px solid $tertiary',
+  }
 })
