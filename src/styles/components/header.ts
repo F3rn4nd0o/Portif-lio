@@ -23,8 +23,8 @@ export const LinksContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   background: 'linear-gradient(to right, $primary, $secondary)',
-  height: '100vh',
-  width: '100%',
+  minHeight: '100vh',
+  minWidth: '100vh',
   
   justifyContent: 'center',
   alignItems: 'center',

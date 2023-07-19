@@ -215,7 +215,7 @@ export default function Home({ theme }) {
           {skills.map((skill) => (
             <Li key={skill.id} onMouseEnter={() => handleMouseEnter(skill)}>
               <Skill>
-                <A3 style={theme === light ? { background: '#fff' } : {}} href="#">
+                <A3 style={theme === light ? { background: '#fff' } : {}}>
                   <Image src={skill.image} alt={skill.name} style={{ width: '30px', height: '30px' }} />
                 </A3>
               </Skill>

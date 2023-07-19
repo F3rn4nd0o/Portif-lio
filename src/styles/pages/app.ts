@@ -3,6 +3,7 @@ import { styled } from "..";
 export const Container = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+  minWidth: '100vh',
   minHeight: '100vh',
   background: "linear-gradient(to right, $primary, $secondary)",
   color: '$text',
