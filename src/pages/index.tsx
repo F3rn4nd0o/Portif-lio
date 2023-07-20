@@ -57,7 +57,7 @@ import Linkedin from '../assets/linkedin.svg'
 import Person from '../assets/person.svg'
 import Ts2 from '../assets/typescript2.svg'
 import Js2 from '../assets/logo-javascript2.svg'
-import Fernando from '../assets/Fernando.jpeg'
+import Fernando from '../assets/Fernando.png'
 
 import { light } from '../styles/theme/light';
 
